@@ -1,3 +1,8 @@
+# Environment
+.env
+.env.local
+.env.production
+
 # Python
 __pycache__/
 *.py[cod]
@@ -20,24 +25,16 @@ wheels/
 .installed.cfg
 *.egg
 
-# Virtual Environment
-venv/
-env/
-
-# Environment variables
-.env
-.env.local
-
-# Docker
-docker-data/
+# Database
+*.db
+*.sqlite3
 
 # Logs
 *.log
 logs/
 
-# Database
-*.db
-*.sqlite3
+# Docker
+docker-compose.override.yml
 
 # IDE
 .vscode/
